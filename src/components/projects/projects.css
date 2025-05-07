@@ -2,12 +2,83 @@
     background-color: #13151b;
     flex: 1;
     color: white;
+    height: 100vh;
 }
 
 .pageTitle {
     width: 100%;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 3vw;
+}
+
+.projectsList {
+    height: auto;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+}
+
+.project {
+    box-shadow: 10px 10px 10px 10px black;
+    width: 100%;
+    margin: 10px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    filter: blur(5px);
+    transition: filter .5s ease, height 0.3s ease;
+    cursor: pointer;
+}
+
+.project:hover {
+    filter: blur(0px);
+    height: 250px;
+}
+
+.projectThumbnail {
+    background-color: rgb(30, 33, 42);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 25%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectThumbnail img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.projectThumbnail img:hover {
+    filter: blur(0px);
+}
+
+.projectSummary {
+    /* background-color: yellowgreen; */
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectTitle {
+    background-color: rgb(30, 33, 42);
+    border-top-right-radius: 10px;
+    height: calc(25% + 10px);
+    font-size: 2.5vw;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.projectDescription {
+    background-color: rgb(48, 53, 67);
+    border-bottom-right-radius: 10px;
+    height: 75%;
+    padding: 10px;
+    overflow: visible;
 }

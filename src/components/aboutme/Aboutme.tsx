@@ -10,7 +10,7 @@ export default function Aboutme() {
                 <a href="https://github.com/jacket235" title="GitHub" target="_blank">
                     <GitHubIcon className="infoIcon" />
                 </a>
-                <a href="my-portfolio/cvDev.pdf" title="CV" download>
+                <a href="my-portfolio/other/cvDev.pdf" title="CV" download>
                     <ContactPageIcon className="infoIcon" />
                 </a>
                 <a href="https://instagram.com/masti_235" title="Instagram" target="_blank">
@@ -27,45 +27,45 @@ export default function Aboutme() {
                     </div>
                     <div className="mySkills">
                         <div className="skill">
-                            <img src="my-portfolio/html.png" />
+                            <img src="my-portfolio/skills/html.png" />
                             HTML
                         </div>
                         <div className="skill">
-                            <img src="my-portfolio/css.png" />
+                            <img src="my-portfolio/skills/css.png" />
                             CSS
                         </div>
                         <div className="skill">
-                            <img src="my-portfolio/javascript.png" />
+                            <img src="my-portfolio/skills/javascript.png" />
                             JavaScript
                         </div>
                         <div className="skill">
-                            <img src="my-portfolio/react.png" />
+                            <img src="my-portfolio/skills/react.png" />
                             React.js
                         </div>
                         <div className="skill">
-                            <img src="my-portfolio/bootstrap.png" />
+                            <img src="my-portfolio/skills/bootstrap.png" />
                             Bootstrap
                         </div>
                         <div className="skill">
-                            <img src="my-portfolio/java.png" />
+                            <img src="my-portfolio/skills/java.png" />
                             Java
                         </div>
                         <div className="skill">
-                            <img src="my-portfolio/lua.png" />
+                            <img src="my-portfolio/skills/lua.png" />
                             Lua
                         </div>
                         <div className="skill">
-                            <img src="my-portfolio/sql.png" />
+                            <img src="my-portfolio/skills/sql.png" />
                             SQL
                         </div>
                         <div className="skill">
-                            <img src="my-portfolio/github.png" />
+                            <img src="my-portfolio/skills/github.png" />
                             GitHub
                         </div>
                     </div>
                 </div>
                 <div className="imgMe">
-                    <img src="my-portfolio/me.jpg" />
+                    <img src="my-portfolio/other/me.jpg" />
                 </div>
             </div>
         </div>
