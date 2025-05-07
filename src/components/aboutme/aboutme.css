@@ -1,0 +1,93 @@
+.aboutme {
+    background-color: #13151b;
+    color: white;
+    flex: 1;
+    height: 100vh;
+    overflow: auto;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.114) 1px, transparent 0);
+    background-size: 25px 25px;
+    background-repeat: repeat;
+}
+
+.infoIcon {
+    font-size: 2vw !important;
+}
+
+.header a {
+    margin: 5vh 10px 0 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.header a:last-child {
+    margin-right: 5vw;
+}
+
+.header {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    height: auto;
+}
+
+.body {
+    display: flex;
+}
+
+.introduction {
+    width: 60%;
+    height: auto;
+    display: flex;
+    padding: 0 0 0 1vw;
+    flex-direction: column;
+    gap: 2vh
+}
+
+.welcomeMessage {
+    /* background-color: red; */
+    font-size: 5vw;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+.description {
+    /* background-color: blue; */
+    font-size: 2vw;
+    display: block;
+}
+
+.mySkills {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+}
+
+.skill {
+    width: 20%;
+    margin-bottom: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill img {
+    max-width: 50%;
+}
+
+.imgMe {
+    width: 40%;
+    padding: 4vw 0 0 1vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.imgMe img {
+    max-width: 50%;
+    padding: 3vw;
+    border-radius: 25%;
+}
