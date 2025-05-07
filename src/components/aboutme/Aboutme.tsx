@@ -58,6 +58,10 @@ export default function Aboutme() {
                             <img src="my-portfolio/sql.png" />
                             SQL
                         </div>
+                        <div className="skill">
+                            <img src="my-portfolio/github.png" />
+                            GitHub
+                        </div>
                     </div>
                 </div>
                 <div className="imgMe">
