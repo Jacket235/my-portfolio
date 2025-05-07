@@ -2,15 +2,6 @@ import "./aboutme.css"
 import GitHubIcon from '@mui/icons-material/GitHub';
 import ContactPageIcon from '@mui/icons-material/ContactPage';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import ImgMe from '../../assets/me.jpg';
-import ImgHTML from '../../assets/html.png';
-import ImgCSS from '../../assets/css.png';
-import ImgJS from '../../assets/javascript.png'
-import ImgReact from '../../assets/react.png'
-import ImgJava from '../../assets/java.png'
-import ImgLua from '../../assets/lua.png'
-import ImgSQL from '../../assets/sql.png'
-import ImgBootstrap from '../../assets/bootstrap.png'
 
 export default function Aboutme() {
     return (
@@ -19,7 +10,7 @@ export default function Aboutme() {
                 <a href="https://github.com/jacket235" title="GitHub" target="_blank">
                     <GitHubIcon className="infoIcon" />
                 </a>
-                <a href="" title="CV" download>
+                <a href="my-portfolio/cvDev.pdf" title="CV" download>
                     <ContactPageIcon className="infoIcon" />
                 </a>
                 <a href="https://instagram.com/masti_235" title="Instagram" target="_blank">
@@ -36,41 +27,41 @@ export default function Aboutme() {
                     </div>
                     <div className="mySkills">
                         <div className="skill">
-                            <img src={ImgHTML} />
+                            <img src="my-portfolio/html.png" />
                             HTML
                         </div>
                         <div className="skill">
-                            <img src={ImgCSS} />
+                            <img src="my-portfolio/css.png" />
                             CSS
                         </div>
                         <div className="skill">
-                            <img src={ImgJS} />
+                            <img src="my-portfolio/javascript.png" />
                             JavaScript
                         </div>
                         <div className="skill">
-                            <img src={ImgReact} />
+                            <img src="my-portfolio/react.png" />
                             React.js
                         </div>
                         <div className="skill">
-                            <img src={ImgBootstrap} />
+                            <img src="my-portfolio/bootstrap.png" />
                             Bootstrap
                         </div>
                         <div className="skill">
-                            <img src={ImgJava} />
+                            <img src="my-portfolio/java.png" />
                             Java
                         </div>
                         <div className="skill">
-                            <img src={ImgLua} />
+                            <img src="my-portfolio/lua.png" />
                             Lua
                         </div>
                         <div className="skill">
-                            <img src={ImgSQL} />
+                            <img src="my-portfolio/sql.png" />
                             SQL
                         </div>
                     </div>
                 </div>
                 <div className="imgMe">
-                    <img src={ImgMe}></img>
+                    <img src="my-portfolio/me.jpg" />
                 </div>
             </div>
         </div>
