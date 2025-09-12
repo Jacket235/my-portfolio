@@ -1,25 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Me from './layout/Me';
+import Projects from './layout/Projects';
+import School from './layout/School';
+import Technologies from './layout/Technologies';
+import Work from './layout/Work';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <main className='min-h-screen flex flex-col items-center bg-slate-950 text-white'>
+            <div className='flex flex-col gap-16 py-8 w-full max-w-[732px]'>
+                <Me />
+                <Technologies />
+                <Projects />
+                <Work />
+                <School />
+            </div>
+        </main>
+    );
 }
 
 export default App;
