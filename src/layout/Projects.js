@@ -12,7 +12,7 @@ export default function Projects() {
                         Klon Reddita
                     </div>
                     <div className='w-full text-gray-400'>
-                        Rekreacja popularnej strony Reddit. Nie jest aktulanie dokończona, ponieważ pozostało mi zrobić tylko panel boczny i chiałbym ją udoskonalić.
+                        Rekreacja popularnej strony Reddit.
                     </div>
                     <div className='flex justify-end gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out'>
                         <a href='https://github.com/Jacket235/reddit' target='_blank'>
