@@ -23,6 +23,22 @@ export default function Projects() {
                         </a>
                     </div>
                 </div>
+                <div className='relative flex flex-col group'>
+                    <div className='w-full mb-2'>
+                        Wordle
+                    </div>
+                    <div className='w-full text-gray-400'>
+                        Znana, prosta, gra, która polega na zgadnięciu słowa składającego się z 5 liter. 
+                    </div>
+                    <div className='flex justify-end gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out'>
+                        <a href='https://github.com/Jacket235/wordle-game' target='_blank'>
+                            <GitHubIcon />
+                        </a>
+                        <a href='https://jacket235.github.io/wordle-game' target='_blank'>
+                            <LanguageIcon />
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     );
