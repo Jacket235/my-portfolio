@@ -8,10 +8,10 @@ export default function School() {
                     <div className='flex justify-between mb-2'>
                         <div className='flex flex-col'>
                             <span>Szkoła Główna Gospodarstwa Wiejskiego w Warszawie</span>
-                            <span className='text-sm text-gray-400 uppercase'>Wykształcenie wyższe - kierunek informatyk</span>
+                            <span className='text-sm text-gray-400 uppercase'>Wykształcenie wyższe - inżynier informatyk</span>
                         </div>
                         <div className='flex items-center'>
-                            <span className='text-gray-400'>obecnie</span>
+                            <span className='text-gray-400'>paź. 2025 - obecnie</span>
                         </div>
                     </div>
                 </div>
@@ -19,7 +19,7 @@ export default function School() {
                     <div className='flex justify-between mb-2'>
                         <div className='flex flex-col'>
                             <span>Technikum w Grójcu</span>
-                            <span className='text-sm text-gray-400 uppercase'>Wykształcenie średnie - profil programista</span>
+                            <span className='text-sm text-gray-400 uppercase'>Wykształcenie średnie - technik programista</span>
                         </div>
                         <div className='flex items-center'>
                             <span className='text-gray-400'>wrz. 2020 - kwi. 2025</span>
