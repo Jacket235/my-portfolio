@@ -1,12 +1,17 @@
 export const projects = [
     {
+        name: "Katolicki Ruch Oporu",
+        subtitle: "Blog zbudowany na autorskim CMS, z dedykowanym sklepem internetowym napisanym od podstaw.",
+        web: "https://katolickiruchoporu.pl/"
+    },
+    {
         name: "Uhave2Pay",
-        subtitle: "Strona z usługami windykacyjnymi",
+        subtitle: "Strona z usługami windykacyjnymi.",
         web: "https://uhave2pay.pl"
     },
     {
         name: "SamiSwoi24",
-        subtitle: "Portal ogłoszeniowy",
+        subtitle: "Portal ogłoszeniowy.",
         web: "https://samiswoi24.pl/"
     },
     {
@@ -17,7 +22,7 @@ export const projects = [
     },
     {
         name: "Todo listy",
-        subtitle: "Aplikacja ułatwiająca organizację zadań poprzez możliwość tworzenia list, dodawanie do nich zadań i zaznaczanie wykonania",
+        subtitle: "Aplikacja ułatwiająca organizację zadań poprzez możliwość tworzenia list, dodawanie do nich zadań i zaznaczanie wykonania.",
         github: "https://github.com/Jacket235/todo-list",
         web: "https://jacket235.github.io/todo-list/"
     }

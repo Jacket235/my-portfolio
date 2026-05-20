@@ -10,13 +10,15 @@ export default function Projects() {
             <div className='flex flex-col'>
                 {projects.map((project, i) => (
                     <div key={i} className='relative flex flex-col group'>
-                        <div className='w-full mb-2'>
-                            {project.name}
+                        <div className='w-full'>
+                            <a href={project.web} rel="noreferrer" target='_blank' className='hover:underline'>
+                                {project.name}
+                            </a>
                         </div>
-                        <div className='w-full text-gray-400'>
+                        <div className='w-full my-2 text-gray-400'>
                             {project.subtitle}
                         </div>
-                        <div className='flex justify-end gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out'>
+                        <div className='flex justify-end gap-2 opacity-[0.5] group-hover:opacity-100 transition-opacity duration-300 ease-in-out'>
                             {project.github && (
                                 <a href={project.github} rel="noreferrer" target='_blank'>
                                     <GitHubIcon />

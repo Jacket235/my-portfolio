@@ -3,6 +3,8 @@ export const technologies = [
     ["React", "/react.png"],
     ["JavaScript", "/javascript.png"],
     ["Node.js", "/node.png"],
+    ["Express.js", "/express.png"],
+    ["MongoDB", "/mongodb.png"],
     ["SQL", "/sql.png"],
     ["Tailwind CSS", "/tailwind.png"],
     ["HTML", "/html.png"], 

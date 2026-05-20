@@ -8,7 +8,7 @@ import './App.css';
 function App() {
     return (
         <main className='min-h-screen flex flex-col items-center bg-slate-950 text-white'>
-            <div className='flex flex-col gap-16 py-8 w-full px-2 max-w-[732px]'>
+            <div className='flex flex-col gap-16 py-8 w-full px-4 max-w-[732px]'>
                 <Me />
                 <Work />
                 <Technologies />

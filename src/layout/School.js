@@ -5,7 +5,7 @@ export default function School() {
             <hr className='my-3 border-0 h-px bg-[#26282a]'></hr>
             <div className='flex flex-col gap-4'>
                 <div className='relative flex flex-col'>
-                    <div className='flex justify-between mb-2'>
+                    <div className='flex justify-between gap-4 mb-2'>
                         <div className='flex flex-col'>
                             <span>Szkoła Główna Gospodarstwa Wiejskiego w Warszawie</span>
                             <span className='text-sm text-gray-400 uppercase'>Wykształcenie wyższe - inżynier informatyk</span>
@@ -16,7 +16,7 @@ export default function School() {
                     </div>
                 </div>
                 <div className='relative flex flex-col'>
-                    <div className='flex justify-between mb-2'>
+                    <div className='flex justify-between gap-4 mb-2'>
                         <div className='flex flex-col'>
                             <span>Technikum w Grójcu</span>
                             <span className='text-sm text-gray-400 uppercase'>Wykształcenie średnie - technik programista</span>
