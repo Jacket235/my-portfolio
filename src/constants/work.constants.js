@@ -1,7 +1,7 @@
 export const work = [
     {
         title: "FreeDomMedia Company",
-        subtitle: "Pełny etat",
+        subtitle: "Web Developer",
         startDate: "lis. 2025",
         endDate: "obecnie",
         description: "Tworzenie i rozwijanie aplikacji internetowych. Odpowiedzialność za frontend oraz backend, wdrażanie nowych funkcjonalności, poprawki błędów, oraz współpracę z zespołem."
