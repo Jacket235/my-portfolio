@@ -1,5 +1,10 @@
 export const projects = [
     {
+        name: "Gentleman Magazine",
+        subtitle: "Blog zbudowany na WordPressie.",
+        web: "https://gentlemanmagazine.pl/"
+    },
+    {
         name: "Katolicki Ruch Oporu",
         subtitle: "Blog zbudowany na autorskim CMS, z dedykowanym sklepem internetowym napisanym od podstaw.",
         web: "https://katolickiruchoporu.pl/"
