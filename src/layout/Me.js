@@ -17,13 +17,13 @@ export default function Me() {
                 </div>
                 <div className='flex items-center gap-2'>
                     <a href='https://github.com/Jacket235' title='GitHub' target='_blank' rel="noreferrer">
-                        <GitHubIcon sx={{fontSize: 32}} />
+                        <GitHubIcon sx={{ fontSize: 32 }} />
                     </a>
                     <a href='CV Sebastian Mastalerz.pdf' title='CV' download>
-                        <ContactPageIcon sx={{fontSize: 32}} />
+                        <ContactPageIcon sx={{ fontSize: 32 }} />
                     </a>
                     <a href='https://instagram.com/masti_235' title='Instagram' target='_blank' rel="noreferrer">
-                        <InstagramIcon sx={{fontSize: 32}} />
+                        <InstagramIcon sx={{ fontSize: 32 }} />
                     </a>
                 </div>
             </div>

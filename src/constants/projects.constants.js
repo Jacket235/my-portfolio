@@ -1,7 +1,7 @@
 export const projects = [
     {
         name: "Gentleman Magazine",
-        subtitle: "Blog zbudowany na WordPressie.",
+        subtitle: "Blog zbudowany na WordPress.",
         web: "https://gentlemanmagazine.pl/"
     },
     {

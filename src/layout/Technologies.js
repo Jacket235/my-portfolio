@@ -11,7 +11,7 @@ export default function Technologies() {
                 {technologies.map((tech, i) => (
                     <div key={i} className='flex items-center  rounded-full py-2 px-4 gap-2 border-2 border-zinc-900'>
                         <span className='flex items-center justify-center w-8 h-8'>
-                            <img src={URL + tech[1]} alt=''/>
+                            <img src={URL + tech[1]} alt='' />
                         </span>
                         {tech[0]}
                     </div>

@@ -7,7 +7,7 @@ export const technologies = [
     ["MongoDB", "/mongodb.png"],
     ["SQL", "/sql.png"],
     ["Tailwind CSS", "/tailwind.png"],
-    ["HTML", "/html.png"], 
+    ["HTML", "/html.png"],
     ["CSS", "/css.png"],
     ["GitHub", "/github.png"],
     ["Photoshop", "/photoshop.png"]
